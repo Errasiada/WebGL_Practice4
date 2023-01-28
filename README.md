@@ -34,6 +34,21 @@ To add the repeated texture to the floor, the prepareBuffers were modify between
 
 ![image](https://user-images.githubusercontent.com/114673717/215262072-91b84bfa-0c8c-40fc-a11e-aa923590a2dd.png)
 
+These are the modifications we apply in Game.razor.cs:
+
+![image](https://user-images.githubusercontent.com/114673717/215265245-4a2f433b-5422-4ab5-afc8-7857be5097bf.png)
+
+![image](https://user-images.githubusercontent.com/114673717/215265268-0fdeac30-e0da-4358-aec3-c90901d7e139.png)
+
+![image](https://user-images.githubusercontent.com/114673717/215265272-66fdfc94-10e7-4f87-a136-5ce571f2f94f.png)
+
+If we compile, we will get an error, that's because the library changed and we need to modify the method setTexture in Level.cs class. Here is how it looks:
+
+![image](https://user-images.githubusercontent.com/114673717/215265344-c4875d9b-712b-4d1c-8d36-a172e883b79b.png)
+
+
+
+
 
 
 
