@@ -1,1 +1,19 @@
 # WebGL_Practice4
+
+In this practice we will add a texture to our WebGL project. Before that, we have to modify some parameters in our project to make it work. First of all, deleting or commenting the Blazor.Expansion.Canvas, install Node.js and .Net v.6.0.
+
+After following the tutorial and downloading the blazor canvas extension, we duplicate package.json with a new name. Inside we modify the code and we install different npm extensions because the dotnet build will generate many errors. If we followed the steps, the terminal should look like this after building.
+
+![image](https://user-images.githubusercontent.com/114673717/215258419-ad4b88c3-1b82-4034-a230-0792b41222dd.png)
+
+After that, check WebGLContext.cs line 407, and add some changes to those methods. Add an int border in TexImage2D. Then, dotnet build.
+
+![image](https://user-images.githubusercontent.com/114673717/215259081-33f120da-d9a5-431c-aebe-485b46f5e8ce.png)
+
+We can use it for our project, but first add the SixLabors.ImageSharp package.
+
+![image](https://user-images.githubusercontent.com/114673717/215259440-3bdf0c39-5efa-4f2c-b74f-b9fd14bfa5fb.png)
+
+
+
+
