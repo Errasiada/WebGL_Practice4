@@ -14,6 +14,13 @@ We can use it for our project, but first add the SixLabors.ImageSharp package.
 
 ![image](https://user-images.githubusercontent.com/114673717/215259440-3bdf0c39-5efa-4f2c-b74f-b9fd14bfa5fb.png)
 
+Now in SimpleGame.cs reference the route for the blazor canvas correction. In my case, as seen below.
+
+![image](https://user-images.githubusercontent.com/114673717/215259750-836a6800-b3fe-4a48-84a6-93f4520d8efd.png)
+
+Now everything should work if you dotnet clean > dotnet build > dotnet run.
+
+
 
 
 
