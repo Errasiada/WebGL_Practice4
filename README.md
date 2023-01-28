@@ -26,6 +26,15 @@ After finishing the tutorial we can start working on our base project. As we hav
 
 ![image](https://user-images.githubusercontent.com/114673717/215260815-3ade68cf-1c4a-4c52-9069-8ca427cee6ab.png)
 
+To add the texture let's modify in assets folder the level.json adding the texture we want to use to the texture list.
+
+![image](https://user-images.githubusercontent.com/114673717/215261888-47efc06a-bb25-4ff5-827e-f70d63188105.png)
+
+To add the repeated texture to the floor, the prepareBuffers were modify between BindBufferAsync and BufferDataAsync
+
+![image](https://user-images.githubusercontent.com/114673717/215262072-91b84bfa-0c8c-40fc-a11e-aa923590a2dd.png)
+
+
 
 
 
