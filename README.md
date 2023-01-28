@@ -20,6 +20,16 @@ Now in SimpleGame.cs reference the route for the blazor canvas correction. In my
 
 Now everything should work if you dotnet clean > dotnet build > dotnet run.
 
+After finishing the tutorial we can start working on our base project. As we have to implement a shooting system, we have to add the controller's movement from the previous activities in the Controller.razor.cs. In my case looks like this:
+
+![image](https://user-images.githubusercontent.com/114673717/215260785-374e7895-8125-445c-b5b6-8e500f32abcc.png)
+
+![image](https://user-images.githubusercontent.com/114673717/215260815-3ade68cf-1c4a-4c52-9069-8ca427cee6ab.png)
+
+
+
+
+
 
 
 
