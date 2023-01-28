@@ -46,6 +46,15 @@ If we compile, we will get an error, that's because the library changed and we n
 
 ![image](https://user-images.githubusercontent.com/114673717/215265344-c4875d9b-712b-4d1c-8d36-a172e883b79b.png)
 
+Applying textures to the pawn, cubes and floor.
+
+![image](https://user-images.githubusercontent.com/114673717/215266181-dd4a41a7-5afe-4178-a95c-f1198ff45acd.png)
+
+![image](https://user-images.githubusercontent.com/114673717/215266186-8a377c03-0db5-4b00-bc4a-72b0cd14ad24.png)
+
+![image](https://user-images.githubusercontent.com/114673717/215266189-1db8cf40-7455-4129-af83-b9ed94eec5ee.png)
+
+
 
 
 
